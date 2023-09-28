@@ -1,4 +1,13 @@
 import React from "react";
+const Skills=[
+  {skill:"Sword Fight"},
+  {skill:"infinity"},
+  {skill:"cursed technique lapse:blue"},
+  {skill:" cursed technic reveresal:red"},
+  {skill:" purple"},
+  {skill:"hollow"},
+
+]
 
 const AboutSection = () => {
   return (
@@ -44,8 +53,13 @@ const AboutSection = () => {
               always open to new opportunities. 🙂
             </p>
           </div>
-          <div className="text-center md:w-1/2 md:text-left">
-            <h1 className="text-2xl font-bold mb-6">My Skills</h1>
+          <div className="md:w-1/2 ">
+            <h1 className="text-center  text-2xl font-bold mb-6 md:text-left">My Skills</h1>
+            <div>
+              {Skills.map((items,idx)=>{
+                return <p className="bg-gray-200 px-4 py-2 mr-2 mt-2 text-gray-500 rounded font-semibold" key={idx}>{items.skill}</p>
+              })}
+            </div>
             <p></p>
           </div>
         </div>
