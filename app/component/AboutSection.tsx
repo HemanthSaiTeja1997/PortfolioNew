@@ -21,7 +21,7 @@ const AboutSection = () => {
             </p>
             <br />
             <p>
-              I graduated from California State University, Northridge in 2019
+              I graduated from Tokyo Jujutsu  University, Northridge in 2019
               with a BS in Computer Engineering and have been working in the
               field ever since.
             </p>
